@@ -1,3 +1,22 @@
-*{
+html, *{
     font-family: "Roboto Slab", serif;
+    background-color: black;
+    color: white;
+}
+
+.book-cover{
+    height: 250px;
+    display: inline;
+}
+
+.container{
+    padding: 25px 100px;
+}
+
+.content{
+    float: right;
+}
+
+.date-rating{
+    opacity: 50%;
 }

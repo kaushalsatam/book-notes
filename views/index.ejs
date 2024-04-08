@@ -10,14 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <h1>Welcome!</h1>
-    <% if(data){ %>
         <% data.forEach((record) => { %>
-            <h1><%= record.name %> - by <%= record.author %></h1>
-            <img src="<%= bookCovers[record.id - 1] %>" alt="">
-            <small>Date read: <%= record.date_read %>. How strongly I recommend it: <%= record.rating %>/10</small>
-            <p><%= record.book_summary %></p>
-        <% }); %>
-    <% } %>
-</body>
+            <div class="content-container">
+                <h1><%= record.name %> - by <%= record.author %></h1>
+                <img src="<%= bookCovers[record.id - 1] %>" alt="Book Cover" class="book-cover">
+                <p class="content"><span class="date-rating">Date read: <%= record.date_read %>. How strongly I recommend it: <%= record.rating %>/10</span> <br><%= record.book_summary %></p>
+            </div>
+            <% }); %>
+        </div>
+    </body>
 </html>

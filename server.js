@@ -33,7 +33,7 @@ app.get("/", async (req, res) => {
         });
         // Wait for all book cover requests to complete
         bookCovers = await Promise.all(bookCoverPromises);
-        console.log(bookCovers);
+        // console.log(bookCovers);
         res.render("index.ejs", {
             data: data,
             bookCovers: bookCovers

@@ -21,7 +21,7 @@ INSERT INTO books (name, author, isbn, date_read, rating, amzn_link)
 VALUES ('You can negotiate anything', 'Herb Cohen', 9780553281095, '2023-08-02', 10, 'https://a.co/d/3R7TCW2');
 
 INSERT INTO books (name, author, isbn, date_read, rating, amzn_link)
-VALUES ('The listening book', 'W. A. Mathieu', 9781590308318, '2021-09-03', 10, 'https://a.co/d/eRIVfom');
+VALUES ('The Psychology of Money', 'Morgan Housel', 9789390166268, '2021-09-03', 8, 'https://amzn.in/d/e6LzSfo');
 
 INSERT INTO notes (book_summary, book_notes, book_id)
 VALUES ('Everything is negotiable. Challenge authority. You have the power in any situation. This is how to realize it and use it. A must-read classic from 1980 from a master negotiator. My notes here aren’t enough because the little book is filled with so many memorable stories — examples of great day-to-day moments of negotiation that will stick in your head for when you need them. (I especially loved the one about the power of the prisoner in solitary confinement.) So go buy and read the book. I’m giving it a 10/10 rating even though the second half of the book loses steam, because the first half is so crucial.', 
@@ -308,58 +308,184 @@ VALUES ('Everything is negotiable. Challenge authority. You have the power in an
 );
 
 INSERT INTO notes (book_summary, book_notes, book_id)
-VALUES ('Everyone should read this book of little essays about listening. It teaches your ears to pay more attention. It calls your attention to sounds you hadn’t noticed. It’s beautifully written, and makes your life better. I read it twice, 24 years ago, and reading it again this week, it was even better than I remembered.',
-        'The eyes are hungry. They eat brain energy. When you close your eyes your brain opens to your ears. When you open your eyes, now the brain is crowded.
-        When people are listening intently with their eyes open, a strange thing happens. Their eyes roll up a little. It means that the hearing, just for a moment, has become hungrier than the vision.
+VALUES ('Thoughts on wealth, greed, and happiness. Good insights into the investing mindset. Well-written without fluff. Some great counter-intuitive surprises.',
+        'Study the history of greed, insecurity, and optimism.
 
-        Our aging cat utters a soft meow of complaint that somehow reminds me of my Grandma Clara, long dead.
-        In the lulls I hear traffic from the through road, two miles north.
-        Our dog is lying half-asleep under the quince bush. When he stirs I hear his fur against the grass.
-        My breathing.
-        I am now aware of two cicada type of insects, both scraping their knees. In front of me, nearby, is the slower one; the one behind me is faster, but farther away. I don’t know how long they have been singing.
-        I absent-mindedly rub the fingers of my left hand together: the high-pitched swish of skin on skin.
+        History never repeats itself. Man always does.
 
-        I decided to see what would happen if I stood two feet in front of a speaker twice my height and cranked to the max.
-        Two things happened:
-        I experienced a blend of ecstasy and pain so intense that I will remember it forever.
-        And I went a little deaf.
-        A tough lesson.
-        But I learned that the ear is a haven.
+        The person who grew up in poverty thinks about risk and reward in ways the child of a wealthy banker cannot fathom.
+        The Australian who hasn’t seen a recession in 30 years has experienced something no American ever has.
+        People’s lifetime investment decisions are heavily anchored to the experiences those investors had in their own generation - especially experiences early in their adult life.
+        Individual investors’ willingness to bear risk depends on personal history. Not intelligence, or education, or sophistication. Just the dumb luck of when and where you were born.
+        Their view of money was formed in different worlds.
 
-        Pay attention to what you are hearing, what you are subjecting your ears to.
-        You have to know when to say “come in” and when to say “stay out”; that is basic to life.
-        What is not obvious is how to do it consciously, deliberately, with your sense of hearing.
-        When you carry an infant around with you, cradling it against the world, you come to understand the equation between its vulnerability and your caring.
-        When you cradle your ears they become increasingly precious to you, and you seek out new ways to give them love.
+        Every transaction he agreed to broke the law.
+        “You don’t suppose you can run a railroad in accordance with the statutes of the State of New York, do you?”
+        Laws didn’t accommodate railroads during Vanderbilt’s day. So he said “to hell with it” and went ahead anyway.
+        You can praise Vanderbilt for flaunting the law with as much passion as you criticize Enron for doing the same.
+        Perhaps one got lucky by avoiding the arm of the law while the other found itself on the side of risk.
 
-        Stand up for your rights.
-        When my dentist sees me coming he turns off the Muzak. (“It’s such a relief when you’re here,” whispers the hygienist.)
-        It’s even all right to ask your friends nicely to turn off the TV they haven’t been watching.
-        Care.
-        Don’t give up and let your ears gradually grow closed.
+        You’ll get closer to actionable takeaways by looking for broad patterns of success and failure. The more common the pattern, the more applicable it might be to your life.
 
-        You can always find a way of upgrading the sound in your space, or your perception of it, if you care enough.
-        And when you do care, the reward is so precious: Murmurs. Lullabies. Rain. Waves of cicadas under the moon.
-        Sounds, sufficiently diffuse or distant not to offend you or hook you into their drama.
+        Success is a lousy teacher. It seduces smart people into thinking they can’t lose.
+        Failure can be a lousy teacher, because it seduces smart people into thinking their decisions were terrible when sometimes they just reflect the unforgiving realities of risk.
 
-        Create a space that not only protects you from unwanted sound but also releases you from any impulse to close your ears.
-        The exercise is to open up, as though your ears are listening through a microscope.
+        Arrange your financial life in a way that a bad investment here and a missed financial goal there won’t wipe you out so you can keep playing until the odds fall in your favor.
 
-        Unlistening means clearing sounds from their associations, which are often unconscious. Make them conscious.
-        Strip all the layers of meaning away from sounds.
+        To make money they didn’t have and didn’t need, they risked what they did have and did need. And that’s foolish. It is just plain foolish.
+        If you risk something that is important to you for something that is unimportant to you, it just does not make any sense.
 
-        Beyond people’s words is the true meaning.
-        The cadence of desire on their voices - the rising and falling prototype of musical cadence.
-        It is there, raw, every time someone speaks.
-        Speech takes on the pristine clarity of pre-language.
+        The hardest financial skill is getting the goalpost to stop moving.
+        An insatiable appetite for more will push you to the point of regret.
 
-        The more you listen the more you hear.
+        Warren Buffett’s net worth is $84.5 billion.
+        Of that, $84.2 billion was accumulated after his 50th birthday.
+        $81.5 billion came after he qualified for Social Security, in his mid-60s.
+        Had he started investing in his 30s and retired in his 60s, few people would have ever heard of him.
+        Buffett began serious investing when he was 10 years old. By the time he was 30 he had a net worth of $1 million, or $9.3 million adjusted for inflation.
+        What if he was a more normal person, spending his teens and 20s exploring the world and finding his passion, and by age 30 his net worth was, say, $25,000?
+        And let’s say he still went on to earn the extraordinary annual investment returns he’s been able to generate (22% annually), but quit investing and retired at age 60 to play golf and spend time with his grandkids.
+        What would a rough estimate of his net worth be today? Not $84.5 billion. $11.9 million. 99.9% less than his actual net worth.
+        His skill is investing, but his secret is time. That’s how compounding works.
 
-        Two music boxes, or three, at once.
+        Linear thinking is so much more intuitive than exponential thinking.
+        If I ask you to calculate 8+8+8+8+8+8+8+8+8 in your head, you can do it in a few seconds (it’s 72).
+        If I ask you to calculate 8×8×8×8×8×8×8×8×8, your head will explode (it’s 134,217,728).
 
-        A stretched string shows how music transforms energy.
+        There are books on economic cycles, trading strategies, and sector bets.
+        But the most powerful and important book should be called Shut Up And Wait.
+        It’s just one page with a long-term chart of economic growth.
+        Only one way to stay wealthy: some combination of frugality and paranoia.
+        To summarize money success in a single word it would be “survival.”
 
-        Dancers need music, but walkers are their own music.',
+        Getting money requires taking risks, being optimistic, and putting yourself out there.
+        But keeping money requires the opposite of taking risk.
+        It requires humility, and fear that what you’ve made can be taken away from you just as fast.
+
+        Buffett achieved his investment returns:
+        He didn’t get carried away with debt. He didn’t panic and sell during the 14 recessions he’s lived through.
+        He didn’t attach himself to one strategy, one world view, or one passing trend.
+        He didn’t rely on others’ money (managing investments through a public company meant investors couldn’t withdraw their capital).
+        He didn’t burn himself out and quit or retire.
+        He survived.
+
+        More than I want big returns, I want to be financially unbreakable.
+
+        The great art dealers operated like index funds. They bought everything they could.
+        And they bought it in portfolios, not individual pieces they happened to like.
+        Then they sat and waited for a few winners to emerge. That’s all that happens.
+        Perhaps 99% of the works someone like Berggruen acquired in his life turned out to be of little value. But that doesn’t particularly matter if the other 1% turn out to be the work of someone like Picasso.
+        Berggruen could be wrong most of the time and still end up stupendously right.
+        A lot of things in business and investing work this way.
+        Since 1980, 40% of all Russell 3000 stock components lost at least 70% of their value and never recovered over this period.
+        Effectively all of the index’s overall returns came from 7% of component companies that outperformed.
+
+        In 2018, Amazon drove 6% of the S&P 500’s returns.
+        And Amazon’s growth is almost entirely due to Prime and Amazon Web Services, which itself are tail events in a company that has experimented with hundreds of products, from the Fire Phone to travel agencies.
+        Apple was responsible for almost 7% of the index’s returns in 2018. And it is driven overwhelmingly by the iPhone.
+
+        Netflix CEO Reed Hastings once announced his company was canceling several big-budget productions.
+        He responded: Our hit ratio is way too high right now. I’m always pushing the content team. We have to take more risk. You have to try more crazy things, because we should have a higher cancel rate overall. These are not delusions or failures of responsibility. They are a smart acknowledgement of how tails drive success.
+
+        The highest form of wealth is the ability to wake up every morning and say, “I can do whatever I want today.”
+
+        Your kids don’t want your money (or what your money buys) anywhere near as much as they want you. Specifically, they want you with them.
+
+        Wealth is what you don’t see.
+        Wealth is the nice cars not purchased, watches not worn, the clothes forgone and the first-class upgrade declined.
+        Wealth is financial assets that haven’t yet been converted into the stuff you see.
+        If you spend money on things, you will end up with the things and not the money.
+        Wealth is hidden. It’s income not spent.
+
+        When most people say they want to be a millionaire, what they might actually mean is “I’d like to spend a million dollars.”
+        And that is literally the opposite of being a millionaire.
+
+        Say you and I have the same net worth. And say you’re a better investor than me. I can earn 8% annual returns and you can earn 12% annual returns.
+        But I’m more efficient with my money. Let’s say I need half as much money to be happy while your lifestyle compounds as fast as your assets.
+        I’m better off than you are, despite being a worse investor.
+        I’m getting more benefit from my investments despite lower returns.
+        The same is true for incomes. Learning to be happy with less money creates a gap between what you have and what you want - similar to the gap you get from growing your paycheck, but easier and more in your control. A high savings rate means having lower expenses than you otherwise could, and having lower expenses means your savings go farther than they would if you spent more. Think about this in the context of how much time and effort goes into achieving 0.1% of annual investment outperformance - millions of hours of research, tens of billions of dollars of effort from professionals - and it’s easy to see what’s potentially more important or worth chasing. There are
+
+        A trap many investors fall into is what I call “historians as prophets” fallacy:
+        An overreliance on past data as a signal to future conditions in a field where innovation and change are the lifeblood of progress.
+
+        Investing is not a hard science.
+
+        Experience leads to overconfidence more than forecasting ability.
+
+        The correct lesson to learn from surprises is that the world is surprising.
+
+        History can be a misleading guide to the future of the economy and stock market because it doesn’t account for structural changes that are relevant to today’s world.
+        S&P 500 did not include financial stocks until 1976; today, financials make up 16% of the index.
+        Technology stocks were virtually nonexistent 50 years ago. Today, they’re more than a fifth of the index.
+        Accounting rules have changed over time. So have disclosures, auditing, and the amount of market liquidity.
+        Things changed.
+        There are plenty of theories on why recessions have become less frequent.
+        It doesn’t particularly matter what caused the change. What matters is that things clearly changed.
+
+        Graham’s classic book, The Intelligent Investor: When you try applying some of these formulas: few of them actually work.
+        Graham advocated purchasing stocks trading for less than their net working assets - basically cash in the bank minus all debts. This sounds great, but few stocks actually trade that cheaply anymore - other than, say, a penny stock accused of accounting fraud.
+        One of Graham’s criteria instructs conservative investors to avoid stocks trading for more than 1.5 times book value. If you followed this rule over the last decade you would have owned almost nothing but insurance and bank stocks. There is no world where that is OK.
+        Just before he died Graham was asked whether detailed analysis of individual stocks - a tactic he became famous for - remained a strategy he favored. He answered: In general, no. I am no longer an advocate of elaborate techniques of security analysis in order to find superior value opportunities. This was a rewarding activity, say, 40 years ago, when our textbook was first published. But the situation has changed a great deal since then.
+        What changed was: Competition grew as opportunities became well known; technology made information more accessible; and industries changed as the economy shifted from industrial to technology sectors, which have different business cycles and capital uses. Things changed.
+
+        An interesting quirk of investing history is that the further back you look, the more likely you are to be examining a world that no longer applies to today.
+        Many investors and economists take comfort in knowing their forecasts are backed up by decades, even centuries, of data.
+        But since economies evolve, recent history is often the best guide to the future, because it’s more likely to include important conditions that are relevant to the future.
+
+        The twelve most dangerous words in investing are, “The four most dangerous words in investing are, ‘it’s different this time.’”
+
+        The further back in history you look, the more general your takeaways should be.
+        General things like people’s relationship to greed and fear, how they behave under stress, and how they respond to incentives tend to be stable in time. The history of money is useful for that kind of stuff.
+        But specific trends, specific trades, specific sectors, specific causal relationships about markets, and what people should do with their money are always an example of evolution in progress.
+        Historians are not prophets.
+
+        Examples of smart financial behavior can be found in blackjack players who practice card counting.
+        Bet more when the odds of getting a card you want are in your favor and less when they are against you.
+        Their strategy relies entirely on humility - humility that they don’t know, and cannot know exactly what’s going to happen next, so play their hand accordingly.
+        The card counting system works because it tilts.
+
+        The purpose of the margin of safety is to render the forecast unnecessary.
+        I assume the future returns I’ll earn in my lifetime will be ⅓ lower than the historic average.
+        So I save more than I would if I assumed the future will resemble the past.
+        It’s my margin of safety.
+
+        When analyzing other people’s home renovation plans, most people estimate the project will run between 25% and 50% over budget.
+        But when it comes to their own projects, people estimate that renovations will be completed on time and at budget.
+
+        “The best way to achieve felicity is to aim low,” says Charlie Munger.
+
+        All of us are walking around with an illusion - an illusion that history, our personal history, has just come to an end, that we have just recently become the people that we were always meant to be and will be for the rest of our lives.
+        We tend to never learn this lesson.
+        People from age 18 to 68 underestimate how much they will change in the future.
+
+        Charlie Munger says the first rule of compounding is to never interrupt it unnecessarily.
+
+        Optimism is a belief that the odds of a good outcome are in your favor over time, even when there will be setbacks along the way.
+        Optimism is the best bet for most people because the world tends to get better for most people most of the time.
+        Pessimism sounds smarter. It’s intellectually captivating, and it’s paid more attention than optimism.
+        Pessimism just sounds smarter and more plausible than optimism.
+        Tell someone that everything will be great and they’re likely to either shrug you off or offer a skeptical eye.
+        Tell someone they’re in danger and you have their undivided attention.
+        Say we’ll have a big recession and newspapers will call you.
+        Say we’re headed for average growth and no one particularly cares.
+        Say we’re nearing the next Great Depression and you’ll get on TV.
+        The investing newsletter industry has known this for years, and is now populated by prophets of doom despite operating in an environment where the stock market has gone up 17,000-fold in the last century.
+
+        Extremely good and extremely bad circumstances rarely stay that way for long because supply and demand adapt.
+
+        Between 2007 and 2009:
+        The same knowledge, the same tools, the same ideas. Nothing changed! Why were we poorer? Why were we more pessimistic?
+        Only one change: The stories we told ourselves about the economy.
+        In 2007, we told a story about the stability of housing prices, the prudence of bankers, and the ability of financial markets to accurately price risk.
+        In 2009 we stopped believing that story.
+        That’s the only thing that changed. But it made all the difference in the world.
+
+        The independent feeling I get from owning our house outright far exceeds the known financial gain I’d get from leveraging our assets with a cheap mortgage.
+        Eliminating the monthly payment feels better than maximizing the long-term value of our assets.
+        It makes me feel independent.
+        On paper it’s defenseless. But it works for us. We like it. That’s what matters.
+        Good decisions aren’t always rational.',
         2
 );
 
