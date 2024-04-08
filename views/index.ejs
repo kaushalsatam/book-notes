@@ -11,6 +11,13 @@
 </head>
 <body>
     <h1>Welcome!</h1>
-    <img src="<%= bookCover %>" alt="Book cover">
+    <% if(data){ %>
+        <% data.forEach((record) => { %>
+            <h1><%= record.name %> - by <%= record.author %></h1>
+            <img src="<%= bookCovers[record.id - 1] %>" alt="">
+            <small>Date read: <%= record.date_read %>. How strongly I recommend it: <%= record.rating %>/10</small>
+            <p><%= record.book_summary %></p>
+        <% }); %>
+    <% } %>
 </body>
 </html>
