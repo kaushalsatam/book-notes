@@ -4,17 +4,24 @@ html, *{
     color: white;
 }
 
-.book-cover{
-    height: 250px;
-    display: inline;
-}
 
 .container{
-    padding: 25px 100px;
+    padding: 25px 200px;
+}
+
+.content-container{
+    display: block;
+    margin: 65px 0px;
 }
 
 .content{
-    float: right;
+    font-size: 1.25rem;
+}
+
+.book-cover{
+    height: 250px;
+    float: left;
+    padding-right: 20px;
 }
 
 .date-rating{

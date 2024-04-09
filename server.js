@@ -22,7 +22,7 @@ let bookCovers = [];
 
 app.get("/", async (req, res) => {
     try {
-        const queryResult = await db.query("SELECT b.id, b.name, b.author, b.isbn, b.date_read, b.rating, n.book_summary FROM books b JOIN notes n ON b.id = n.book_id;");
+        const queryResult = await db.query("SELECT b.id, b.name, b.author, b.isbn, b.date_read, b.rating, b.amzn_link, n.book_summary FROM books b JOIN notes n ON b.id = n.book_id;");
         data = queryResult.rows;
         // console.log(data);
         // Fetch book covers asynchronously for each book

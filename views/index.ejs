@@ -14,10 +14,11 @@
     <h1>Welcome!</h1>
         <% data.forEach((record) => { %>
             <div class="content-container">
-                <h1><%= record.name %> - by <%= record.author %></h1>
+                <h2><%= record.name %> - by <%= record.author %></h2>
                 <img src="<%= bookCovers[record.id - 1] %>" alt="Book Cover" class="book-cover">
                 <p class="content"><span class="date-rating">Date read: <%= record.date_read %>. How strongly I recommend it: <%= record.rating %>/10</span> <br><%= record.book_summary %></p>
             </div>
+            Read my notes, or go to the <a href="<%= record.amzn_link %>" target="_blank">Amazon page</a> for details and reviews.
             <% }); %>
         </div>
     </body>
